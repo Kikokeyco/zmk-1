@@ -1,0 +1,8 @@
+# Poldani board configuration
+
+# Copyright (c) 2020 Kagen Aeby (Kikokeyco)
+# SPDX-License-Identifier: MIT
+
+config BOARD_POLDANI
+	bool "Poldani"
+	depends on SOC_NRF52840_QIAA
